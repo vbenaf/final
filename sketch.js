@@ -39,7 +39,7 @@ function draw() {
     }
 }
 
-function mousePressed() {
+function mouseClicked() {
     if (counterPressed == 0) {
         begin = true;
         background(255, 227, 150);
